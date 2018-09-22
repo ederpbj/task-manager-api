@@ -1,3 +1,15 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  namespace :api, defaults: { format: :json }, constraints: { subdomain: 'api' }, path: "/" do
+  	#TASKS
+  	
+  	#users
+
+  	#Ex:
+  	#www.nomedosite.com/api/tasks
+  	#www.nomedosite.com/api/users
+
+	#www.site.com/api/tasks
+  	#api.site.com/tasks
 end
