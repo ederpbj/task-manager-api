@@ -12,19 +12,19 @@ Rails.application.routes.draw do
   #   resources :tasks
   #  end
 
-  end
-  	#TASKS
-  	
-  	#users
+#TASKS
+    
+    #users
 
-  	#Ex:
-  	#www.nomedosite.com/api/tasks
-  	#www.nomedosite.com/api/users
+    #Ex:
+    #www.nomedosite.com/api/tasks
+    #www.nomedosite.com/api/users
 
-  	#Acesso pelo site
-	#www.site.com/api/tasks
-  	#api.site.com/tasks
+    #Acesso pelo site
+  #www.site.com/api/tasks
+    #api.site.com/tasks
 
-  	#Acesso local
-  	#localhost:3000
+    #Acesso local
+    #localhost:3000
+
 end
