@@ -12,7 +12,7 @@ RSpec.describe User, type: :model do
   # it{expect(@user).to respond_to(:password)}
   # it{expect(@user).to respond_to(:password_confirmation)}
   # it{expect(@user).to be_valid}
-
+  #testando
   #Usando subject
   subject {build(:user)}
   #subject = User.new
